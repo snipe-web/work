@@ -1712,7 +1712,7 @@
   grid-template-columns: repeat(2, 1fr);
   width: 85%;
   margin: auto;
-  gap: 200px;
+  gap: 140px;
   padding-bottom: 80px;
 }
 .shared__right8 {
@@ -1825,3 +1825,4 @@
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
