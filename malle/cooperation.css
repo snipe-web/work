@@ -270,7 +270,12 @@
 .benefits__item {
   margin-bottom: 40px;
   margin-right: 100px;
+  max-width: 620px;
 
+}
+
+.benefits__text-container {
+  max-width: 480px;
 }
 
 .benefits__item:last-child {
@@ -303,6 +308,7 @@
   line-height: 126%;
   text-align: left;
   font-weight: 400;
+  padding-left: 40px;
 }
 .benefits__text1 {
   font-size: 45px;
@@ -377,8 +383,7 @@
 }
 
 .aesthetics__item {
-  max-width: 480px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 .aesthetics__item:last-child {
@@ -388,7 +393,7 @@
 .aesthetics__header {
   display: flex;
   align-items: center;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .aesthetics__icon {
@@ -411,7 +416,6 @@
   color: #000;
   line-height: 140%;
   text-align: left;
-  max-width: 480px;
   margin: 0;
 }
 .aesthetics__text {
@@ -420,7 +424,6 @@
   line-height: 140%;
   text-align: left;
   margin: 0;
-  max-width: 480px;
 }
 .aesthetics__bottom {
   width: 85%;
@@ -460,7 +463,6 @@
   border-radius: 15px;    /* было 10px */
   padding: 30px 50px; 
   text-align: center;
-  font-weight: bold;
   font-family: sans-serif;
   font-size: 24px;
   line-height: 1.26;
@@ -489,7 +491,7 @@
   object-fit: contain;
 }
 .individual__txt {
-  font-size: 1.1rem;  
+  font-size: 20px;  
   line-height: 140%;    /* было 1.5rem */
   padding: 20px 0;        /* было 30px */
   text-align: center;
@@ -541,9 +543,7 @@
   align-items: center;
 }
 /* advantages */
-.advantages {
-  padding: 50px 0;
-}
+
 
 .advantages__container {
   display: grid;
@@ -633,7 +633,7 @@
 }
 .hotel__title P  {
   font-weight: 600;
-  font-size: 24px;
+  font-size: 45px;
   line-height: 110%;
   text-transform: uppercase;
   text-align: center;
@@ -759,7 +759,7 @@
 
 /* Для текста, если вдруг длинный */
 .assortment__label {
-  font-size: 1.1rem;
+  font-size: 20px;
   line-height: 1.3;
   text-align: center;
   color: #202020;
@@ -818,7 +818,6 @@
 
 .competition__item {
   flex: 1;
-  max-width: 500px;
 }
 
 .competition__item-title {
@@ -876,8 +875,7 @@
 .partners__image {
   padding-top: 40px;
   display: flex;
-  justify-content: center;
-  gap: 70px;
+  justify-content: space-between;
   width: 85%;
   margin: auto;
   align-items: center;
@@ -925,7 +923,7 @@
   width: 45%;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 10px;
 }
 
 .beauty__right {
@@ -933,7 +931,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: 30px;
+  gap: 40px;
 }
 
 .beauty__badge {
@@ -943,6 +941,7 @@
   width: 100%;
   text-align: center;
   max-width: 445px;
+  margin-bottom: 50px;
 }
 
 .beauty__badge-title {
@@ -965,6 +964,7 @@
 
 .beauty__description {
   font-size: 20px;
+  margin-bottom: 30px;
 }
 
 .beauty__text {
@@ -1241,8 +1241,7 @@
   display: flex;
   gap: 30px;
   justify-content: space-between;
-  margin: auto;
-  width: 85%;
+  margin: 0px 170px 100px 122px;
   padding-bottom: 50px;
 }
 .personal__left {
@@ -1305,6 +1304,8 @@
 }
 .personal__right img {
   width: 100%;
+  height: 100%;
+  max-height: 128px;
 }
 .guest-benefits__txt {
   font-weight: 600;
@@ -1317,6 +1318,9 @@
   align-items: center;
   opacity: 0.5;
   margin-top: 120px;
+}
+.guest-benefits__txt111 {
+  margin-top: 0px !important;
 }
 .shared {
   display: flex;
@@ -1344,8 +1348,6 @@
   width: 100%;
 }
 .shared__left {
-  width: 80%;
-  margin-right: 209px;
 }
 .shared__text-title {
   font-weight: 700;
@@ -1526,7 +1528,7 @@
 }
 
 .series__list-item {
-  font-size: 1.1rem;
+  font-size: 20px;
   line-height: 1.3;
   color: #202020;
   list-style: disc;
@@ -1660,6 +1662,7 @@
   background: #3a3935;
   margin: auto;
   width: 85%;
+  margin-bottom: 100px;
 }
 .moscow__content {
   display: flex;
@@ -1674,6 +1677,7 @@
   color: #ffffff;
   font-size: 20px;
   line-height: 110%;
+  margin-bottom: 10px;
 }
 .moscow__img {
   width: 100%;
@@ -1740,6 +1744,9 @@
   padding: 15px 0;
   align-items: center;
 }
+.product_last {
+  margin-bottom: 70px;
+}
 
 .product-title {
   color: #353736;
@@ -1793,7 +1800,7 @@
 .guest-benefits__img11 {
   width: 85%;
   margin: 0;
-  padding: 60px 0;
+  padding: 0px 0 60px 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1876,8 +1883,8 @@
 
 .shared__left5 {
   display: flex;
+  gap: 60px;
   flex-direction: column;
-  justify-content: space-between;
   width: 60%;
   margin-left: 130px;
 }
@@ -1887,7 +1894,7 @@
   justify-content: flex-end;
 }
 .shared__right-img5 {
-  width: 80;
+  width: 80%;
 }
 .shared__left5 {
   width: 40%;
