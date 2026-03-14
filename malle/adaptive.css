@@ -19,13 +19,22 @@
     padding: 16px 100px;
   }
 
+  .shared__text-txt {
+    font-weight: 400;
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 110%;
+    color: #202020;
+    width: 530px;
+    margin-bottom: 60px;
+  }
   .shared__text-txt1 {
     font-weight: 400;
     margin-top: 40px;
     font-size: 20px;
     line-height: 110%;
     color: #202020;
-    width: 600px;
+    width: 530px;
     margin-bottom: 60px;
   }
 
@@ -41,6 +50,13 @@
     max-width: 60%;
     align-items: center !important;
   }
+  .moscow__text1 {
+    font-size: 18px;
+}
+.moscow__icon {
+  width: 115px;
+  height: 115px;
+}
 }
 
 @media (max-width: 1224px) {
@@ -59,6 +75,20 @@
     max-width: 580px;
     max-height: 700px;
   }
+  .shared8 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 85%;
+    margin: auto;
+    gap: 70px;
+    padding-bottom: 80px;
+  }
+  .shared7 {
+    margin: auto;
+    gap: 50px;
+  }
+
+
 }
 
 /* ==========================================================
@@ -101,10 +131,17 @@
     min-height: 0;
     height: 100%;
     object-fit: cover;
+    min-height: 600px;
   }
-
+  .shared__left5 {
+    display: flex;
+    gap: 0px; 
+    flex-direction: column;
+    width: 60%;
+    margin-left: 130px;
+}
   /* ---------- Imageoll (фото-разделители) ---------- */
-  .imageoll {
+  /* .imageoll {
     margin: 15px 0;
     max-height: 400px;
     object-fit: cover;
@@ -112,7 +149,7 @@
   .imageoll img {
     max-height: 400px;
     object-fit: cover;
-  }
+  } */
 
   /* ---------- Hero ---------- */
   .cosmetics__content {
@@ -131,11 +168,11 @@
     margin-bottom: 40px;
   }
   .cosmetics__bottom-img img {
-    max-width: 120px;
+    max-width: 110px;
   }
   .cosmetics__bottom-btn img {
-    width: 50px;
-    height: 50px;
+    width: 65px;
+    height: 65px;
   }
 
   /* ---------- Текст — уменьшаем ---------- */
@@ -144,13 +181,12 @@
   }
   .benefits__text {
     font-size: 17px;
-    padding-left: 10px;
   }
   .benefits__text1 {
     font-size: 26px;
   }
   .hotel__title p {
-    font-size: 28px;
+    font-size: 20px;
   }
   .aesthetics__text1,
   .aesthetics__text {
@@ -219,7 +255,7 @@
     padding: 15px 60px;
   }
   .personal__left1 {
-    padding: 15px 60px;
+    padding: 15px 107px;
   }
   .individual__item {
     font-size: 16px;
@@ -250,10 +286,7 @@
     font-size: 16px;
     margin-bottom: 20px;
   }
-  .shared {
-    gap: 50px;
-    padding-bottom: 30px;
-  }
+  
   .series__heading {
     font-size: 18px;
     max-width: 100%;
@@ -303,8 +336,11 @@
     height: 80px;
   }
   .moscow__right {
-    gap: 12px;
+    gap: 0px;
     padding-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .mask-title {
     font-size: 16px;
@@ -328,7 +364,6 @@
   /* ---------- Фиксы больших отступов ---------- */
   .shared__text-title5 {
     font-size: 18px;
-    margin-bottom: 30px;
   }
   .guest-benefits__txt {
     font-size: 1rem;
@@ -352,16 +387,17 @@
   .benefits__bottom-btn {
     margin: 0 30px 30px;
   }
+  .benefits__bottom-btn img {
+    width: 65px;
+    height: 65px;
+  }
 
   .shared__left {
-    width: 50%;
   }
   .shared__right {
-    width: 50%;
   }
   .shared__right-img {
     height: auto;
-    max-height: 500px;
   }
 
   .shared5,
@@ -369,12 +405,13 @@
     padding-bottom: 30px;
   }
   .shared__left5 {
-    width: 50%;
     margin-left: 0;
     gap: 20px;
   }
+  .shared__right51 {
+    width: 100%;
+  }
   .shared__right5 {
-    width: 50%;
   }
   .shared__right-img5 {
     width: 100%;
@@ -391,16 +428,13 @@
     width: 50%;
   }
   .shared__right6 {
-    width: 50%;
   }
   .shared__right-img6 {
-    width: 100%;
-    max-height: 400px;
+    width: 95%;
   }
 
   .shared7 {
     width: 90%;
-    gap: 30px;
     padding-bottom: 30px;
   }
   .shared8 {
@@ -461,7 +495,7 @@
   }
 
   .assortment {
-    padding: 35px 0;
+    padding: 0px 0;
   }
   .assortment__header1 {
     flex-direction: column;
@@ -479,8 +513,7 @@
   }
   .partners__image {
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
+    justify-content: space-between;
     padding-top: 20px;
   }
   .partners__image-img {
@@ -512,6 +545,17 @@
   .product_last {
     margin-bottom: 30px;
   }
+
+  .hotel__title {
+    border: 1px dashed #000;
+    border-radius: 25px;
+    padding: 40px 15px;
+    width: 85%;
+    margin: 60px auto 40px auto;
+    text-align: center !important;
+    justify-content: center;
+    display: flex;
+}
 }
 
 /* ==========================================================
@@ -526,17 +570,25 @@
   }
   .cosmetics__title {
     font-size: 24px;
+    max-width: 395px;
   }
   .cosmetics__subtitle {
     font-size: 14px;
     margin-bottom: 25px;
   }
   .cosmetics__bottom-img img {
-    max-width: 100px;
+    max-width: 80px;
   }
   .cosmetics__bottom-btn img {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
+  }
+  .cosmetics__bg-image {
+    width: 100%;
+    min-height: 0;
+    height: 100%;
+    object-fit: cover;
+    min-height: 450px;
   }
 
   .this {
@@ -550,7 +602,7 @@
   }
 
   /* ---------- Imageoll — ограничиваем высоту ---------- */
-  .imageoll {
+  /* .imageoll {
     margin: 10px 0;
     max-height: 300px;
     overflow: hidden;
@@ -559,21 +611,25 @@
     max-height: 300px;
     object-fit: cover;
     width: 100%;
-  }
+  } */
 
   /* ---------- Текст ещё меньше ---------- */
   .benefits__title {
-    font-size: 18px;
+    font-size: 17px;
+    margin-bottom: 5px;
   }
+  .benefits__content {
+    gap: 10px;
+}
+
   .benefits__text {
     font-size: 14px;
-    padding-left: 0;
   }
   .benefits__text1 {
     font-size: 20px;
   }
   .hotel__title p {
-    font-size: 18px;
+    font-size: 16px;
   }
   .hotel__title {
     padding: 18px 12px;
@@ -598,7 +654,7 @@
     margin-bottom: 15px;
   }
   .beauty__title {
-    font-size: 18px;
+    font-size: 15px;
   }
   .beauty__text {
     font-size: 14px;
@@ -643,6 +699,8 @@
   .shared__text-txt {
     font-size: 14px;
     width: 100%;
+    margin-bottom: 30px;
+
   }
   .shared__text-txt1 {
     font-size: 14px;
@@ -653,6 +711,7 @@
   .shared__text p {
     font-size: 14px;
     margin-bottom: 8px;
+    margin-top: 10px;
   }
   .hair__title {
     font-size: 0.9rem;
@@ -732,9 +791,6 @@
   .shared51,
   .shared7,
   .shared8 {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
   }
 
   /* ---------- Benefits ---------- */
@@ -750,14 +806,15 @@
     margin-right: 0;
     margin-bottom: 20px;
   }
-  .benefits__bottom-btn {
-    position: relative;
-    margin: 8px 0 0;
-  }
+  
+
+  .benefits__bottom-btn img {
+    width: 50px;
+    height: 50px;
+}
 
   /* ---------- Aesthetics ---------- */
   .aesthetics__content {
-    padding: 15px 0 0 0;
   }
   .aesthetics__img {
     width: 100%;
@@ -777,11 +834,10 @@
     padding: 20px;
   }
   .advantages__right-column {
-    max-height: 300px;
+    max-height: 480px;
     overflow: hidden;
   }
   .advantages__image {
-    max-height: 300px;
     object-fit: cover;
   }
 
@@ -814,12 +870,15 @@
     padding: 25px 0;
   }
   .guest-benefits__image {
-    order: -1;
-    padding: 18px;
+    display: none;
   }
   .guest-benefits__img {
     padding: 15px 0;
   }
+
+  .guest-benefits__container {
+    grid-template-columns: 1fr 0fr;
+}
 
   /* ---------- Personal ---------- */
   .personal {
@@ -837,8 +896,13 @@
     width: 100%;
     padding: 15px 20px;
     max-height: none;
-    max-width: 100%;
+    max-width: 50%;
   }
+
+  .benefits__bg-image1 {
+    /* padding: 30px 0; */
+    width: 60%;
+}
 
   /* ---------- Shared ---------- */
   .shared__left,
@@ -847,7 +911,7 @@
   }
   .shared__right-img {
     height: auto;
-    max-height: 300px;
+    max-height: 440px;
     border-radius: 10px;
     object-fit: cover;
     width: 100%;
@@ -878,9 +942,11 @@
     max-width: 180px;
     padding: 15px;
     margin: 0 auto;
+    display: none;
   }
   .hair__content {
     gap: 20px;
+    flex-direction: row;
   }
 
   /* ---------- Series ---------- */
@@ -917,21 +983,22 @@
     margin-bottom: 20px;
   }
   .moscow__left {
-    width: 100%;
     padding: 20px 15px;
   }
   .moscow__img {
     max-width: 120px;
   }
   .moscow__right {
+    justify-content: center;
+    align-items: flex-start;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
-    padding: 0 15px 15px;
+    padding: 20px 15px 15px;
   }
   .moscow__icon {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
   }
   .moscow__text1 {
     margin-top: 10px;
@@ -965,7 +1032,6 @@
   }
   .shared__right-img5 {
     width: 100%;
-    max-height: 300px;
     object-fit: cover;
     border-radius: 8px;
   }
@@ -973,6 +1039,10 @@
     width: 100%;
     padding: 0;
   }
+
+  .shared__right51 {
+    width: 100%;
+}
 
   .shared__left6,
   .shared__right6 {
@@ -1063,6 +1133,10 @@
   .individual__arrow {
     padding: 10px 0;
   }
+
+  .individual {
+    gap: 5px;
+}
 }
 
 /* ==========================================================
@@ -1201,8 +1275,8 @@
   }
 
   .moscow__icon {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
   }
   .moscow__txt {
     font-size: 10px;
@@ -1218,6 +1292,7 @@
   .hair__brand {
     padding: 10px;
     max-width: 140px;
+
   }
 
   .shared__text-txt {
@@ -1241,12 +1316,12 @@
   }
 
   /* ---------- Imageoll ещё меньше ---------- */
-  .imageoll {
+  /* .imageoll {
     max-height: 200px;
   }
   .imageoll img {
     max-height: 200px;
-  }
+  } */
 
   .competition__item-title {
     font-size: 14px;

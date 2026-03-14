@@ -61,8 +61,8 @@
 }
 
 .cosmetics__logo-img {
-  width: 75px;
-  height: 17.14px;
+  width: 107px;
+  height: 24px;
 }
 
 .cosmetics__title {
@@ -132,7 +132,6 @@
   min-height: 551px;
   overflow: hidden;
   background-color: #fff;
-  margin: 0 0 64px 0;
 }
 
 .benefits__container {
@@ -271,6 +270,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  margin-top: 64px;
 }
 
 .aesthetics__content {
@@ -988,11 +988,10 @@
   justify-content: space-between;
   height: 100%;
   width: 100%;
-  max-height: 255px;
 }
 .shared__right-img1 {
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: 96%;
 }
 .shared__left-img {
   max-width: 107px;
@@ -1441,7 +1440,7 @@
 
 .shared__left5 {
   display: flex;
-  gap: 60px;
+  gap: 0px;
   flex-direction: column;
   width: 60%;
   margin-left: 130px;
@@ -1452,10 +1451,11 @@
   justify-content: flex-end;
 }
 .shared__right-img5 {
-  width: 80%;
+  width: 100%;
 }
 .shared__left5 {
-  width: 40%;
+  display: flex;
+  justify-content: center;
 }
 .shared__left6 {
   display: flex;
@@ -1474,7 +1474,6 @@
 .shared__right-img6 {
   object-fit: contain;
   width: 100%;
-  max-height: 700px;
 }
 .shared__left6 {
   width: 40%;
@@ -1487,7 +1486,7 @@
   width: 79%;
   margin: auto;
   padding-bottom: 80px;
-  justify-items: end;
+  gap: 150px;
 }
 
 
