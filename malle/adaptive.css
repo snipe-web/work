@@ -6,365 +6,1129 @@
    480: ещё меньше
    ============================================================ */
 
-img { max-width: 100%; height: auto; }
-.cosmetics__bottom-btn img { width: 50px; height: 50px; object-fit: contain; }
-
-
 /* ==========================================================
    TABLET — 769–1024px
    50/50 сохраняется, текст и отступы уменьшаются
    ========================================================== */
-@media (max-width: 1024px) {
-
-  /* Контейнеры */
-  .this__content, .aesthetics, .individual, .individual__arrow,
-  .hotel__title, .assortment, .competition__container, .competition__icon,
-  .partners__image, .beauty__container, .guest-benefits__container,
-  .guest-benefits__img, .personal, .shared, .series, .moscow,
-  .product, .product-line, .shared5, .shared51, .shared7, .shared8, .approach {
-    width: 90%; max-width: 90%; margin-left: auto; margin-right: auto;
+@media (max-width: 1524px) {
+  .cosmetics__logo {
+    margin-bottom: 350px;
   }
 
-  /* Hero */
-  .cosmetics__content { left: 5%; width: 90%; }
-  .cosmetics__logo { margin-bottom: 200px; }
-  .cosmetics__title { font-size: 32px; }
-  .cosmetics__subtitle { font-size: 16px; }
-  .cosmetics__bottom-img img { max-width: 140px; }
-
-  /* Текст — уменьшаем всё */
-  .benefits__title { font-size: 24px; }
-  .benefits__text { font-size: 17px; padding-left: 10px; }
-  .benefits__text1 { font-size: 26px; }
-  .hotel__title p { font-size: 28px; }
-  .aesthetics__text1, .aesthetics__text { font-size: 16px; }
-  .aesthetics__title { font-size: 20px; }
-  .aesthetics__content { padding: 0 0 0 50px; }
-  .advantages__card-title { font-size: 18px; margin-top: 25px; }
-  .advantages__card-text, .advantages__card-text1 { font-size: 16px; }
-  .advantages__card-text { margin-bottom: 60px; }
-  .advantages__card--orange { padding-left: 40px; }
-  .advantages__card--white { margin-left: 20px; }
-  .beauty__title { font-size: 22px; }
-  .beauty__text { font-size: 16px; }
-  .beauty__description { font-size: 16px; }
-  .beauty__badge-title { font-size: 16px; }
-  .beauty__badge-subtitle { font-size: 13px; }
-  .beauty__badge { padding: 18px 30px; }
-  .beauty__container { gap: 60px; }
-  .guest-benefits__title { font-size: 20px; }
-  .guest-benefits__item { font-size: 16px; }
-  .guest-benefits__container { gap: 60px; }
-  .personal__title { font-size: 18px; }
-  .personal__text { font-size: 15px; }
-  .personal__left { padding: 15px 60px; }
-  .individual__item { font-size: 16px; padding: 20px 15px; }
-  .individual__txt { font-size: 14px; padding: 15px 5px; }
-  .approach { font-size: 16px; width: 60%; }
-  .shared__text-title { font-size: 24px; margin-top: 30px; margin-bottom: 10px; }
-  .shared__text-txt { font-size: 16px; width: 100%; }
-  .shared__text-txt1 { font-size: 16px; width: 100%; }
-  .shared__text p { font-size: 16px; }
-  .shared { gap: 50px; }
-  .series__heading { font-size: 18px; max-width: 100%; }
-  .series__subtitle, .series__subtitle1 { font-size: 16px; }
-  .series__list-item { font-size: 16px; }
-  .series { gap: 50px; }
-  .series__left { padding-top: 30px; margin-bottom: 30px; }
-  .competition__container { gap: 60px; }
-  .competition__item-title { font-size: 18px; max-width: 100%; }
-  .competition__item-text { font-size: 15px; }
-  .partners__title { font-size: 28px; }
-  .moscow__text { font-size: 15px; }
-  .moscow__txt { font-size: 12px; }
-  .moscow__text1 { font-size: 14px; }
-  .moscow__left { width: 35%; padding: 25px 25px; }
-  .moscow__icon { width: 80px; height: 80px; }
-  .moscow__right { gap: 12px; padding-top: 35px; }
-  .mask-title { font-size: 16px; }
-  .product { gap: 20px; }
-  .product__img { max-width: 90px; }
-  .assortment__title { font-size: 1.4rem; }
-  .assortment__label { font-size: 15px; }
-  .assortment__top-row { gap: 60px; }
-  .shared__text-title5 { font-size: 18px; margin-bottom: 80px; }
-  .guest-benefits__txt { font-size: 1rem; margin-top: 40px; }
-  .shared__left-img { max-width: 80px; }
-
-  /* 50/50 — всё остаётся в row, просто gap уменьшается */
-  .benefits { min-height: auto; margin-bottom: 30px; }
-  .benefits__content { padding: 25px 20px 25px 30px; }
-  .benefits__item { margin-right: 10px; }
-  .benefits__bottom-btn { margin: 0 30px 30px; }
-
-  .shared__left { width: 50%; }
-  .shared__right { width: 50%; }
-  .shared__right-img { height: auto; max-height: 500px; }
-
-  .shared5, .shared51 { padding-bottom: 40px; }
-  .shared__left5 { width: 50%; margin-left: 0; gap: 20px; }
-  .shared__right5 { width: 50%; }
-  .shared__right-img5 { width: 100%; max-height: 400px; object-fit: cover; border-radius: 8px; }
-  .guest-benefits__img11 { width: 100%; padding: 0 0 15px; }
-
-  .shared__left6 { width: 50%; }
-  .shared__right6 { width: 50%; }
-  .shared__right-img6 { width: 100%; max-height: 400px; }
-
-  .shared7 { width: 90%; gap: 30px; padding-bottom: 40px; }
-  .shared8 { gap: 60px; padding-bottom: 40px; }
-  .shared__right8 { align-items: flex-start; text-align: left; }
-  .shared__left1 { max-height: none; height: auto; }
-  .shared__right-img1 { width: 100%; height: auto; max-height: 250px; object-fit: cover; border-radius: 8px; }
-  .shared__left4 { width: 100%; }
-
-  .beauty__left { width: 50%; }
-  .beauty__right { width: 50%; }
-  .beauty__image--small, .beauty__image--large { height: auto; }
-
-  .guest-benefits__image { padding: 25px; }
-
-  .hair { max-width: 90%; padding: 25px 10px; }
-  .hair__title { font-size: 1.1rem; padding: 30px 20px; }
-  .hair__column { width: 42%; }
-
-  .advantages__right-column { overflow: hidden; }
-  .advantages__image { max-height: 600px; }
-
-  .assortment { padding: 35px 0; }
-  .assortment__header1 { flex-direction: column; gap: 20px; }
-  .assortment__header { width: 100%; max-width: 100%; height: auto; padding: 18px; }
-
-  .partners { margin: 40px 0; }
-  .partners__image { flex-wrap: wrap; justify-content: center; gap: 15px; padding-top: 20px; }
-  .partners__image-img { max-width: 90px; max-height: 40px; }
-
-  .imageoll { margin: 15px 0; }
-  .benefits-img { top: 15px; left: 20px; width: 55px; }
+  .personal__left {
+    padding: 16px 100px;
 }
 
+.shared__text-txt1 {
+  font-weight: 400;
+  margin-top: 40px;
+  font-size: 20px;
+  line-height: 110%;
+  color: #202020;
+  width: 600px;
+  margin-bottom: 60px;
+}
+
+.personal__left1 {
+  border: 1px solid rgb(32, 32, 32);
+  border-radius: 5px;
+  padding: 16px 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-height: 128px;
+  max-width: 60%;
+  align-items: center !important;
+}
+
+}
+@media (max-width: 1224px) {
+  
+  .cosmetics__content {
+    width: 85%;
+    position: absolute;
+    top: 43px;
+    left: 80px;
+    color: white;
+    z-index: 1000;
+  }
+
+  .shared__right-img {
+    width: 100%;
+    height: auto;
+    max-width: 580px;
+    max-height: 700px;
+}
+}
+
+@media (max-width: 1024px) {
+  /* Контейнеры */
+  .this__content,
+  .aesthetics,
+  .individual,
+  .individual__arrow,
+  .hotel__title,
+  .assortment,
+  .competition__container,
+  .competition__icon,
+  .partners__image,
+  .beauty__container,
+  .guest-benefits__container,
+  .guest-benefits__img,
+  .personal,
+  .shared,
+  .series,
+  .moscow,
+  .product,
+  .product-line,
+  .shared5,
+  .shared51,
+  .shared7,
+  .shared8,
+  .approach {
+    width: 90%;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cosmetics__bg-image {
+    width: 100%;
+    min-height: 0;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+
+  /* Hero */
+  .cosmetics__content {
+    left: 5%;
+    width: 90%;
+  }
+  .cosmetics__logo {
+    margin-bottom: 160px;
+  }
+  .cosmetics__title {
+    font-size: 32px;
+    max-width: 560px;
+  }
+  .cosmetics__subtitle {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+
+  .cosmetics__bottom-img img {
+    max-width: 120px;
+  }
+
+  .cosmetics__bottom-btn img {
+    width: 90%;
+}
+
+
+  /* Текст — уменьшаем всё */
+  .benefits__title {
+    font-size: 24px;
+  }
+  .benefits__text {
+    font-size: 17px;
+    padding-left: 10px;
+  }
+  .benefits__text1 {
+    font-size: 26px;
+  }
+  .hotel__title p {
+    font-size: 28px;
+  }
+  .aesthetics__text1,
+  .aesthetics__text {
+    font-size: 16px;
+  }
+  .aesthetics__title {
+    font-size: 20px;
+  }
+  .aesthetics__content {
+    padding: 0 0 0 50px;
+  }
+  .advantages__card-title {
+    font-size: 18px;
+    margin-top: 25px;
+  }
+  .advantages__card-text,
+  .advantages__card-text1 {
+    font-size: 16px;
+  }
+  .advantages__card-text {
+    margin-bottom: 60px;
+  }
+  .advantages__card--orange {
+    padding-left: 40px;
+  }
+  .advantages__card--white {
+    margin-left: 20px;
+  }
+  .beauty__title {
+    font-size: 22px;
+  }
+  .beauty__text {
+    font-size: 16px;
+  }
+  .beauty__description {
+    font-size: 16px;
+  }
+  .beauty__badge-title {
+    font-size: 16px;
+  }
+  .beauty__badge-subtitle {
+    font-size: 13px;
+  }
+  .beauty__badge {
+    padding: 18px 30px;
+  }
+  .beauty__container {
+    gap: 60px;
+  }
+  .guest-benefits__title {
+    font-size: 20px;
+  }
+  .guest-benefits__item {
+    font-size: 16px;
+  }
+  .guest-benefits__container {
+    gap: 60px;
+  }
+  .personal__title {
+    font-size: 18px;
+  }
+  .personal__text {
+    font-size: 15px;
+  }
+  .personal__left {
+    padding: 15px 60px;
+  }
+  .personal__left1 {
+    padding: 15px 60px;
+  }
+  .individual__item {
+    font-size: 16px;
+    padding: 20px 15px;
+  }
+  .individual__txt {
+    font-size: 14px;
+    padding: 15px 5px;
+  }
+  .approach {
+    font-size: 16px;
+    width: 60%;
+  }
+  .shared__text-title {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .shared__text-txt {
+    font-size: 16px;
+    width: 100%;
+  }
+  .shared__text-txt1 {
+    font-size: 16px;
+    width: 100%;
+  }
+  .shared__text p {
+    font-size: 16px;
+  }
+  .shared {
+    gap: 50px;
+  }
+  .series__heading {
+    font-size: 18px;
+    max-width: 100%;
+  }
+  .series__subtitle,
+  .series__subtitle1 {
+    font-size: 16px;
+  }
+  .series__list-item {
+    font-size: 16px;
+  }
+  .series {
+    gap: 50px;
+  }
+  .series__left {
+    padding-top: 30px;
+    margin-bottom: 30px;
+  }
+  .competition__container {
+    gap: 60px;
+  }
+  .competition__item-title {
+    font-size: 18px;
+    max-width: 100%;
+  }
+  .competition__item-text {
+    font-size: 15px;
+  }
+  .partners__title {
+    font-size: 28px;
+  }
+  .moscow__text {
+    font-size: 15px;
+  }
+  .moscow__txt {
+    font-size: 12px;
+  }
+  .moscow__text1 {
+    font-size: 14px;
+  }
+  .moscow__left {
+    width: 35%;
+    padding: 25px 25px;
+  }
+  .moscow__icon {
+    width: 80px;
+    height: 80px;
+  }
+  .moscow__right {
+    gap: 12px;
+    padding-top: 35px;
+  }
+  .mask-title {
+    font-size: 16px;
+  }
+  .product {
+    gap: 20px;
+  }
+  .product__img {
+    max-width: 90px;
+  }
+  .assortment__title {
+    font-size: 1.4rem;
+  }
+  .assortment__label {
+    font-size: 15px;
+  }
+  .assortment__top-row {
+    gap: 60px;
+  }
+  .shared__text-title5 {
+    font-size: 18px;
+    margin-bottom: 80px;
+  }
+  .guest-benefits__txt {
+    font-size: 1rem;
+    margin-top: 40px;
+  }
+  .shared__left-img {
+    max-width: 80px;
+  }
+
+  /* 50/50 — всё остаётся в row, просто gap уменьшается */
+  .benefits {
+    min-height: auto;
+    margin-bottom: 30px;
+  }
+  .benefits__content {
+    padding: 25px 20px 25px 30px;
+  }
+  .benefits__item {
+    margin-right: 10px;
+  }
+  .benefits__bottom-btn {
+    margin: 0 30px 30px;
+  }
+
+  .shared__left {
+    width: 50%;
+  }
+  .shared__right {
+    width: 50%;
+  }
+  .shared__right-img {
+    height: auto;
+    max-height: 500px;
+  }
+
+  .shared5,
+  .shared51 {
+    padding-bottom: 40px;
+  }
+  .shared__left5 {
+    width: 50%;
+    margin-left: 0;
+    gap: 20px;
+  }
+  .shared__right5 {
+    width: 50%;
+  }
+  .shared__right-img5 {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .guest-benefits__img11 {
+    width: 100%;
+    padding: 0 0 15px;
+  }
+
+  .shared__left6 {
+    width: 50%;
+  }
+  .shared__right6 {
+    width: 50%;
+  }
+  .shared__right-img6 {
+    width: 100%;
+    max-height: 400px;
+  }
+
+  .shared7 {
+    width: 90%;
+    gap: 30px;
+    padding-bottom: 40px;
+  }
+  .shared8 {
+    gap: 60px;
+    padding-bottom: 40px;
+  }
+  .shared__right8 {
+    align-items: flex-start;
+    text-align: left;
+  }
+  .shared__left1 {
+    max-height: none;
+    height: auto;
+  }
+  .shared__right-img1 {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .shared__left4 {
+    width: 100%;
+  }
+
+  .beauty__left {
+    width: 50%;
+  }
+  .beauty__right {
+    width: 50%;
+  }
+  .beauty__image--small,
+  .beauty__image--large {
+    height: auto;
+  }
+
+  .guest-benefits__image {
+    padding: 25px;
+  }
+
+  .hair {
+    max-width: 90%;
+    padding: 25px 10px;
+  }
+  .hair__title {
+    font-size: 1.1rem;
+    padding: 30px 20px;
+  }
+  .hair__column {
+    width: 42%;
+  }
+
+  .advantages__right-column {
+    overflow: hidden;
+  }
+  .advantages__image {
+    max-height: 600px;
+  }
+
+  .assortment {
+    padding: 35px 0;
+  }
+  .assortment__header1 {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .assortment__header {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 18px;
+  }
+
+  .partners {
+    margin: 40px 0;
+  }
+  .partners__image {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 20px;
+  }
+  .partners__image-img {
+    max-width: 90px;
+    max-height: 40px;
+  }
+
+  .imageoll {
+    margin: 15px 0;
+  }
+  .benefits-img {
+    top: 15px;
+    left: 20px;
+    width: 55px;
+  }
+}
 
 /* ==========================================================
    MOBILE — ≤ 768px
    Теперь в column
    ========================================================== */
 @media (max-width: 768px) {
-
   /* Hero */
-  .cosmetics__logo { margin-bottom: 120px; margin-top: 20px; }
-  .cosmetics__title { font-size: 24px; }
-  .cosmetics__subtitle { font-size: 14px; margin-bottom: 25px; }
-  .cosmetics__bottom-img img { max-width: 100px; }
-  .cosmetics__bottom-btn img { width: 40px; height: 40px; }
+  .cosmetics__logo {
+    margin-bottom: 120px;
+    margin-top: 20px;
+  }
+  .cosmetics__title {
+    font-size: 24px;
+  }
+  .cosmetics__subtitle {
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+  .cosmetics__bottom-img img {
+    max-width: 100px;
+  }
+  .cosmetics__bottom-btn img {
+    width: 40px;
+    height: 40px;
+  }
 
-  .this { padding: 20px 0; }
-  .this__title { font-size: 16px; }
-  .this__logo { width: 65px; }
+  .this {
+    padding: 20px 0;
+  }
+  .this__title {
+    font-size: 16px;
+  }
+  .this__logo {
+    width: 65px;
+  }
 
   /* Текст ещё меньше */
-  .benefits__title { font-size: 18px; }
-  .benefits__text { font-size: 14px; padding-left: 0; }
-  .benefits__text1 { font-size: 20px; }
-  .hotel__title p { font-size: 18px; }
-  .hotel__title { padding: 18px 12px; margin: 20px auto; }
-  .aesthetics__title { font-size: 16px; }
-  .aesthetics__text1, .aesthetics__text { font-size: 14px; }
-  .advantages__card-title { font-size: 16px; margin-top: 0; }
-  .advantages__card-text, .advantages__card-text1 { font-size: 14px; }
-  .advantages__card-text { margin-bottom: 15px; }
-  .beauty__title { font-size: 18px; }
-  .beauty__text { font-size: 14px; text-align: left; }
-  .beauty__description { font-size: 14px; margin-bottom: 8px; }
-  .beauty__badge-title { font-size: 15px; }
-  .guest-benefits__title { font-size: 18px; }
-  .guest-benefits__item { font-size: 14px; }
-  .personal__title { font-size: 16px; }
-  .personal__text { font-size: 14px; }
-  .individual__item { font-size: 14px; padding: 15px 10px; }
-  .individual__txt { font-size: 12px; }
-  .approach { font-size: 14px; width: 85%; padding: 18px 0; }
-  .shared__text-title { font-size: 18px; margin-top: 12px; }
-  .shared__text-txt { font-size: 14px; }
-  .shared__text-txt1 { font-size: 14px; margin-top: 8px; margin-bottom: 8px; }
-  .shared__text p { font-size: 14px; margin-bottom: 8px; }
-  .hair__title { font-size: 0.9rem; padding: 18px 10px; }
-  .series__heading { font-size: 16px; }
-  .series__subtitle, .series__subtitle1, .series__list-item { font-size: 14px; }
-  .series__list { gap: 10px; }
-  .moscow__text { font-size: 13px; }
-  .moscow__txt { font-size: 11px; }
-  .moscow__text1 { font-size: 12px; }
-  .competition__item-title { font-size: 16px; }
-  .competition__item-text { font-size: 13px; }
-  .partners__title { font-size: 18px; }
-  .mask-title { font-size: 14px; }
-  .assortment__title { font-size: 1.1rem; }
-  .assortment__label { font-size: 13px; }
-  .shared__text-title5 { font-size: 15px; padding: 10px 0; margin-bottom: 15px; }
-  .guest-benefits__txt { font-size: 0.85rem; margin-top: 15px; }
+  .benefits__title {
+    font-size: 18px;
+  }
+  .benefits__text {
+    font-size: 14px;
+    padding-left: 0;
+  }
+  .benefits__text1 {
+    font-size: 20px;
+  }
+  .hotel__title p {
+    font-size: 18px;
+  }
+  .hotel__title {
+    padding: 18px 12px;
+    margin: 20px auto;
+  }
+  .aesthetics__title {
+    font-size: 16px;
+  }
+  .aesthetics__text1,
+  .aesthetics__text {
+    font-size: 14px;
+  }
+  .advantages__card-title {
+    font-size: 16px;
+    margin-top: 0;
+  }
+  .advantages__card-text,
+  .advantages__card-text1 {
+    font-size: 14px;
+  }
+  .advantages__card-text {
+    margin-bottom: 15px;
+  }
+  .beauty__title {
+    font-size: 18px;
+  }
+  .beauty__text {
+    font-size: 14px;
+    text-align: left;
+  }
+  .beauty__description {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .beauty__badge-title {
+    font-size: 15px;
+  }
+  .guest-benefits__title {
+    font-size: 18px;
+  }
+  .guest-benefits__item {
+    font-size: 14px;
+  }
+  .personal__title {
+    font-size: 16px;
+  }
+  .personal__text {
+    font-size: 14px;
+  }
+  .individual__item {
+    font-size: 14px;
+    padding: 15px 10px;
+  }
+  .individual__txt {
+    font-size: 12px;
+  }
+  .approach {
+    font-size: 14px;
+    width: 85%;
+    padding: 18px 0;
+  }
+  .shared__text-title {
+    font-size: 18px;
+    margin-top: 12px;
+  }
+  .shared__text-txt {
+    font-size: 14px;
+  }
+  .shared__text-txt1 {
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .shared__text p {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .hair__title {
+    font-size: 0.9rem;
+    padding: 18px 10px;
+  }
+  .series__heading {
+    font-size: 16px;
+  }
+  .series__subtitle,
+  .series__subtitle1,
+  .series__list-item {
+    font-size: 14px;
+  }
+  .series__list {
+    gap: 10px;
+  }
+  .moscow__text {
+    font-size: 13px;
+  }
+  .moscow__txt {
+    font-size: 11px;
+  }
+  .moscow__text1 {
+    font-size: 12px;
+  }
+  .competition__item-title {
+    font-size: 16px;
+  }
+  .competition__item-text {
+    font-size: 13px;
+  }
+  .partners__title {
+    font-size: 18px;
+  }
+  .mask-title {
+    font-size: 14px;
+  }
+  .assortment__title {
+    font-size: 1.1rem;
+  }
+  .assortment__label {
+    font-size: 13px;
+  }
+  .shared__text-title5 {
+    font-size: 15px;
+    padding: 10px 0;
+    margin-bottom: 15px;
+  }
+  .guest-benefits__txt {
+    font-size: 0.85rem;
+    margin-top: 15px;
+  }
 
   /* В column */
-  .benefits__container, .aesthetics__container, .advantages__container,
-  .beauty__container, .guest-benefits__container, .personal,
-  .shared, .series, .moscow__content,
-  .shared5, .shared51, .shared7, .shared8 {
-    display: flex; flex-direction: column; gap: 20px;
+  .benefits__container,
+  .aesthetics__container,
+  .advantages__container,
+  .beauty__container,
+  .guest-benefits__container,
+  .personal,
+  .shared,
+  .series,
+  .moscow__content,
+  .shared5,
+  .shared51,
+  .shared7,
+  .shared8 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 
   /* Benefits */
-  .benefits { min-height: auto; }
-  .benefits__content { max-width: 100%; padding: 20px 15px; }
-  .benefits__item { margin-right: 0; }
-  .benefits__bottom-btn { position: relative; margin: 8px 0 0; }
+  .benefits {
+    min-height: auto;
+  }
+  .benefits__content {
+    max-width: 100%;
+    padding: 20px 15px;
+  }
+  .benefits__item {
+    margin-right: 0;
+  }
+  .benefits__bottom-btn {
+    position: relative;
+    margin: 8px 0 0;
+  }
 
   /* Aesthetics */
-  .aesthetics__content { padding: 15px 0 0 0; }
-  .aesthetics__img { width: 100%; height: auto; }
-  .aesthetics__item { margin-bottom: 20px; }
+  .aesthetics__content {
+    padding: 15px 0 0 0;
+  }
+  .aesthetics__img {
+    width: 100%;
+    height: auto;
+  }
+  .aesthetics__item {
+    margin-bottom: 20px;
+  }
 
   /* Advantages */
-  .advantages__card--orange { padding: 20px; height: auto; }
-  .advantages__card--white { margin-left: 0; padding: 20px; }
-  .advantages__right-column { max-height: 300px; overflow: hidden; }
+  .advantages__card--orange {
+    padding: 20px;
+    height: auto;
+  }
+  .advantages__card--white {
+    margin-left: 0;
+    padding: 20px;
+  }
+  .advantages__right-column {
+    max-height: 300px;
+    overflow: hidden;
+  }
 
   /* Beauty */
-  .beauty { padding: 25px 0; }
-  .beauty__left, .beauty__right { width: 100%; align-items: flex-start; }
-  .beauty__badge { max-width: 100%; padding: 15px 20px; margin-bottom: 10px; }
-  .beauty__image--small, .beauty__image--large { width: 100%; height: auto; max-height: 300px; }
-  .beauty__brand { align-self: flex-end; }
+  .beauty {
+    padding: 25px 0;
+  }
+  .beauty__left,
+  .beauty__right {
+    width: 100%;
+    align-items: flex-start;
+  }
+  .beauty__badge {
+    max-width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+  }
+  .beauty__image--small,
+  .beauty__image--large {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+  }
+  .beauty__brand {
+    align-self: flex-end;
+  }
 
   /* Guest benefits */
-  .guest-benefits { padding: 30px 0; }
-  .guest-benefits__image { order: -1; padding: 18px; }
+  .guest-benefits {
+    padding: 30px 0;
+  }
+  .guest-benefits__image {
+    order: -1;
+    padding: 18px;
+  }
 
   /* Personal */
-  .personal__left { width: 100%; padding: 15px 20px; max-height: none; }
+  .personal__left {
+    width: 100%;
+    padding: 15px 20px;
+    max-height: none;
+  }
+  .personal__left1 {
+    width: 100%;
+    padding: 15px 20px;
+    max-height: none;
+  }
 
   /* Shared */
-  .shared__left, .shared__right { width: 100%; }
-  .shared__right-img { height: auto; max-height: 350px; border-radius: 8px; }
-  .shared__left-img { max-width: 65px; }
-  .shared { padding-bottom: 30px; }
+  .shared__left,
+  .shared__right {
+    width: 100%;
+  }
+  .shared__right-img {
+    height: auto;
+    max-height: 350px;
+    border-radius: 8px;
+  }
+  .shared__left-img {
+    max-width: 65px;
+  }
+  .shared {
+    padding-bottom: 30px;
+  }
 
   /* Hair */
-  .hair__row { flex-direction: column; gap: 10px; }
-  .hair__column { width: 100%; }
-  .hair__brand { position: relative; top: auto; width: 100%; max-width: 180px; padding: 15px; }
+  .hair__row {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .hair__column {
+    width: 100%;
+  }
+  .hair__brand {
+    position: relative;
+    top: auto;
+    width: 100%;
+    max-width: 180px;
+    padding: 15px;
+  }
 
   /* Series */
-  .series__left { width: 100%; padding-top: 0; margin-bottom: 0; }
-  .series__right { width: 100%; grid-template-columns: 1fr 1fr; gap: 8px; }
-  .series__img-text1, .series__img-text2, .series__img-text3, .series__img-text4 { font-size: 0.9rem; }
+  .series__left {
+    width: 100%;
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+  .series__right {
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+  .series__img-text1,
+  .series__img-text2,
+  .series__img-text3,
+  .series__img-text4 {
+    font-size: 0.9rem;
+  }
 
   /* Moscow */
-  .moscow { border-radius: 12px; margin-bottom: 25px; }
-  .moscow__left { width: 100%; padding: 20px 15px; }
-  .moscow__img { max-width: 120px; }
-  .moscow__right { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; padding: 0 15px 15px; }
-  .moscow__icon { width: 50px; height: 50px; }
+  .moscow {
+    border-radius: 12px;
+    margin-bottom: 25px;
+  }
+  .moscow__left {
+    width: 100%;
+    padding: 20px 15px;
+  }
+  .moscow__img {
+    max-width: 120px;
+  }
+  .moscow__right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 0 15px 15px;
+  }
+  .moscow__icon {
+    width: 50px;
+    height: 50px;
+  }
 
   /* Product */
-  .product { gap: 15px; padding: 15px 0; }
-  .product__img { max-width: 70px; }
+  .product {
+    gap: 15px;
+    padding: 15px 0;
+  }
+  .product__img {
+    max-width: 70px;
+  }
 
   /* Shared5, 51 */
-  .shared5, .shared51 { padding-bottom: 25px; }
-  .shared__left5 { width: 100%; margin-left: 0; gap: 12px; }
-  .shared__right5 { width: 100%; }
-  .shared__right-img5 { width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; }
-  .guest-benefits__img11 { width: 100%; padding: 0; }
+  .shared5,
+  .shared51 {
+    padding-bottom: 25px;
+  }
+  .shared__left5 {
+    width: 100%;
+    margin-left: 0;
+    gap: 12px;
+  }
+  .shared__right5 {
+    width: 100%;
+  }
+  .shared__right-img5 {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .guest-benefits__img11 {
+    width: 100%;
+    padding: 0;
+  }
 
-  .shared__left6, .shared__right6 { width: 100%; }
-  .shared__right-img6 { width: 100%; max-height: 300px; }
+  .shared__left6,
+  .shared__right6 {
+    width: 100%;
+  }
+  .shared__right-img6 {
+    width: 100%;
+    max-height: 300px;
+  }
 
   /* Shared7, 8 */
-  .shared7 { padding-bottom: 25px; }
-  .shared8 { padding-bottom: 25px; }
-  .shared__right8 { align-items: flex-start; text-align: left; }
-  .shared__left1 { max-height: none; height: auto; }
-  .shared__right-img1 { width: 100%; height: auto; max-height: 220px; border-radius: 8px; }
-  .shared__left4 { width: 100%; }
+  .shared7 {
+    padding-bottom: 25px;
+  }
+  .shared8 {
+    padding-bottom: 25px;
+  }
+  .shared__right8 {
+    align-items: flex-start;
+    text-align: left;
+  }
+  .shared__left1 {
+    max-height: none;
+    height: auto;
+  }
+  .shared__right-img1 {
+    width: 100%;
+    height: auto;
+    max-height: 220px;
+    border-radius: 8px;
+  }
+  .shared__left4 {
+    width: 100%;
+  }
 
   /* Assortment */
-  .assortment { padding: 20px 0; }
-  .assortment__top-row, .assortment__bottom-row { grid-template-columns: 1fr 1fr; gap: 15px; }
-  .assortment__header { width: 100%; height: auto; padding: 15px; }
-  .assortment__img-wrap { height: 100px; }
+  .assortment {
+    padding: 20px 0;
+  }
+  .assortment__top-row,
+  .assortment__bottom-row {
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+  .assortment__header {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+  }
+  .assortment__img-wrap {
+    height: 100px;
+  }
 
   /* Partners */
-  .partners { margin: 25px 0; }
-  .partners__image-img { max-width: 65px; max-height: 30px; }
-  .partners__image { gap: 12px; }
+  .partners {
+    margin: 25px 0;
+  }
+  .partners__image-img {
+    max-width: 65px;
+    max-height: 30px;
+  }
+  .partners__image {
+    gap: 12px;
+  }
 
   /* Competition */
-  .competition__container { gap: 15px; padding-bottom: 20px; }
-  .competition__item { max-width: 100%; }
+  .competition__container {
+    gap: 15px;
+    padding-bottom: 20px;
+  }
+  .competition__item {
+    max-width: 100%;
+  }
 
-  .benefits-img { top: 12px; left: 12px; width: 45px; }
+  .benefits-img {
+    top: 12px;
+    left: 12px;
+    width: 45px;
+  }
 }
-
 
 /* ==========================================================
    SMALL MOBILE — ≤ 480px
    ========================================================== */
 @media (max-width: 480px) {
-  .cosmetics__title { font-size: 20px; }
-  .cosmetics__subtitle { font-size: 12px; }
-  .cosmetics__logo { margin-bottom: 80px; margin-top: 12px; }
-  .cosmetics__logo-img { width: 50px; }
-  .cosmetics__bottom-btn img { width: 32px; height: 32px; }
-  .cosmetics__bottom-img img { max-width: 70px; }
+  .cosmetics__title {
+    font-size: 20px;
+  }
+  .cosmetics__subtitle {
+    font-size: 12px;
+  }
+  .cosmetics__logo {
+    margin-bottom: 80px;
+    margin-top: 12px;
+  }
+  .cosmetics__logo-img {
+    width: 50px;
+  }
+  .cosmetics__bottom-btn img {
+    width: 32px;
+    height: 32px;
+  }
+  .cosmetics__bottom-img img {
+    max-width: 70px;
+  }
 
-  .this { padding: 12px 0; }
-  .this__title { font-size: 13px; }
-  .this__logo { width: 50px; }
+  .this {
+    padding: 12px 0;
+  }
+  .this__title {
+    font-size: 13px;
+  }
+  .this__logo {
+    width: 50px;
+  }
 
-  .hotel__title p { font-size: 15px; }
-  .hotel__title { padding: 12px 8px; margin: 12px auto; }
+  .hotel__title p {
+    font-size: 15px;
+  }
+  .hotel__title {
+    padding: 12px 8px;
+    margin: 12px auto;
+  }
 
-  .benefits__title { font-size: 15px; }
-  .benefits__text { font-size: 12px; }
-  .benefits__text1 { font-size: 15px; }
+  .benefits__title {
+    font-size: 15px;
+  }
+  .benefits__text {
+    font-size: 12px;
+  }
+  .benefits__text1 {
+    font-size: 15px;
+  }
 
-  .individual { grid-template-columns: 1fr; gap: 6px; }
-  .individual__item { font-size: 13px; padding: 12px 8px; }
+  .individual {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+  .individual__item {
+    font-size: 13px;
+    padding: 12px 8px;
+  }
 
-  .assortment__bottom-row { grid-template-columns: 1fr 1fr; }
-  .assortment__img-wrap { height: 80px; }
-  .assortment__label { font-size: 12px; }
+  .assortment__bottom-row {
+    grid-template-columns: 1fr 1fr;
+  }
+  .assortment__img-wrap {
+    height: 80px;
+  }
+  .assortment__label {
+    font-size: 12px;
+  }
 
-  .partners__image-img { max-width: 50px; max-height: 22px; }
-  .beauty__image--small, .beauty__image--large { max-height: 180px; }
-  .guest-benefits__item { font-size: 12px; padding-left: 16px; }
-  .guest-benefits__item::before { width: 4px; height: 4px; }
-  .personal__left { padding: 10px; }
-  .personal__title { font-size: 14px; }
-  .personal__text { font-size: 12px; }
-  .approach { font-size: 12px; width: 92%; }
+  .partners__image-img {
+    max-width: 50px;
+    max-height: 22px;
+  }
+  .beauty__image--small,
+  .beauty__image--large {
+    max-height: 180px;
+  }
+  .guest-benefits__item {
+    font-size: 12px;
+    padding-left: 16px;
+  }
+  .guest-benefits__item::before {
+    width: 4px;
+    height: 4px;
+  }
+  .personal__left {
+    padding: 10px;
+  }
+  .personal__title {
+    font-size: 14px;
+  }
+  .personal__text {
+    font-size: 12px;
+  }
+  .approach {
+    font-size: 12px;
+    width: 92%;
+  }
 
-  .product { flex-direction: column; text-align: center; gap: 8px; padding: 10px 0; }
-  .product__img { max-width: 70px; margin: 0 auto; }
-  .mask-title { font-size: 12px; }
+  .product {
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+    padding: 10px 0;
+  }
+  .product__img {
+    max-width: 70px;
+    margin: 0 auto;
+  }
+  .mask-title {
+    font-size: 12px;
+  }
 
-  .series__right { grid-template-columns: 1fr; gap: 6px; }
-  .series__heading { font-size: 14px; }
-  .series__subtitle, .series__subtitle1, .series__list-item { font-size: 12px; }
+  .series__right {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+  .series__heading {
+    font-size: 14px;
+  }
+  .series__subtitle,
+  .series__subtitle1,
+  .series__list-item {
+    font-size: 12px;
+  }
 
-  .moscow__icon { width: 40px; height: 40px; }
-  .moscow__txt { font-size: 10px; }
-  .moscow__text { font-size: 12px; }
+  .moscow__icon {
+    width: 40px;
+    height: 40px;
+  }
+  .moscow__txt {
+    font-size: 10px;
+  }
+  .moscow__text {
+    font-size: 12px;
+  }
 
-  .hair__title { font-size: 0.8rem; padding: 12px 8px; }
-  .hair__brand { padding: 10px; max-width: 140px; }
+  .hair__title {
+    font-size: 0.8rem;
+    padding: 12px 8px;
+  }
+  .hair__brand {
+    padding: 10px;
+    max-width: 140px;
+  }
 
-  .shared__text-txt { font-size: 12px; }
-  .shared__text-title { font-size: 16px; }
-  .shared__text p { font-size: 12px; }
-  .shared__right-img, .shared__right-img5, .shared__right-img6 { max-height: 220px; }
-  .shared__right-img1 { max-height: 170px; }
+  .shared__text-txt {
+    font-size: 12px;
+  }
+  .shared__text-title {
+    font-size: 16px;
+  }
+  .shared__text p {
+    font-size: 12px;
+  }
+  .shared__right-img,
+  .shared__right-img5,
+  .shared__right-img6 {
+    max-height: 220px;
+  }
+  .shared__right-img1 {
+    max-height: 170px;
+  }
 
-  .competition__item-title { font-size: 14px; }
-  .competition__item-text { font-size: 12px; }
-  .guest-benefits__txt { font-size: 0.75rem; margin-top: 10px; }
+  .competition__item-title {
+    font-size: 14px;
+  }
+  .competition__item-text {
+    font-size: 12px;
+  }
+  .guest-benefits__txt {
+    font-size: 0.75rem;
+    margin-top: 10px;
+  }
 }
