@@ -7,8 +7,8 @@
    ============================================================ */
 
 /* ==========================================================
-   TABLET — 769–1024px
-   50/50 сохраняется, текст и отступы уменьшаются
+   PRE-TABLET — 1225–1524px
+   Не трогаем — ручная работа
    ========================================================== */
 @media (max-width: 1524px) {
   .cosmetics__logo {
@@ -17,34 +17,33 @@
 
   .personal__left {
     padding: 16px 100px;
+  }
+
+  .shared__text-txt1 {
+    font-weight: 400;
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 110%;
+    color: #202020;
+    width: 600px;
+    margin-bottom: 60px;
+  }
+
+  .personal__left1 {
+    border: 1px solid rgb(32, 32, 32);
+    border-radius: 5px;
+    padding: 16px 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-height: 128px;
+    max-width: 60%;
+    align-items: center !important;
+  }
 }
 
-.shared__text-txt1 {
-  font-weight: 400;
-  margin-top: 40px;
-  font-size: 20px;
-  line-height: 110%;
-  color: #202020;
-  width: 600px;
-  margin-bottom: 60px;
-}
-
-.personal__left1 {
-  border: 1px solid rgb(32, 32, 32);
-  border-radius: 5px;
-  padding: 16px 150px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-height: 128px;
-  max-width: 60%;
-  align-items: center !important;
-}
-
-}
 @media (max-width: 1224px) {
-  
   .cosmetics__content {
     width: 85%;
     position: absolute;
@@ -59,11 +58,15 @@
     height: auto;
     max-width: 580px;
     max-height: 700px;
-}
+  }
 }
 
+/* ==========================================================
+     TABLET — ≤ 1024px
+     50/50 сохраняется, текст и отступы уменьшаются
+     ========================================================== */
 @media (max-width: 1024px) {
-  /* Контейнеры */
+  /* ---------- Контейнеры ---------- */
   .this__content,
   .aesthetics,
   .individual,
@@ -100,9 +103,18 @@
     object-fit: cover;
   }
 
+  /* ---------- Imageoll (фото-разделители) ---------- */
+  .imageoll {
+    margin: 15px 0;
+    max-height: 400px;
+    object-fit: cover;
+  }
+  .imageoll img {
+    max-height: 400px;
+    object-fit: cover;
+  }
 
-
-  /* Hero */
+  /* ---------- Hero ---------- */
   .cosmetics__content {
     left: 5%;
     width: 90%;
@@ -118,17 +130,15 @@
     font-size: 16px;
     margin-bottom: 40px;
   }
-
   .cosmetics__bottom-img img {
     max-width: 120px;
   }
-
   .cosmetics__bottom-btn img {
-    width: 90%;
-}
+    width: 50px;
+    height: 50px;
+  }
 
-
-  /* Текст — уменьшаем всё */
+  /* ---------- Текст — уменьшаем ---------- */
   .benefits__title {
     font-size: 24px;
   }
@@ -238,9 +248,11 @@
   }
   .shared__text p {
     font-size: 16px;
+    margin-bottom: 20px;
   }
   .shared {
     gap: 50px;
+    padding-bottom: 30px;
   }
   .series__heading {
     font-size: 18px;
@@ -312,22 +324,24 @@
   .assortment__top-row {
     gap: 60px;
   }
+
+  /* ---------- Фиксы больших отступов ---------- */
   .shared__text-title5 {
     font-size: 18px;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
   }
   .guest-benefits__txt {
     font-size: 1rem;
-    margin-top: 40px;
+    margin-top: 20px;
   }
   .shared__left-img {
     max-width: 80px;
   }
 
-  /* 50/50 — всё остаётся в row, просто gap уменьшается */
+  /* ---------- 50/50 row — gap уменьшается ---------- */
   .benefits {
     min-height: auto;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   .benefits__content {
     padding: 25px 20px 25px 30px;
@@ -352,7 +366,7 @@
 
   .shared5,
   .shared51 {
-    padding-bottom: 40px;
+    padding-bottom: 30px;
   }
   .shared__left5 {
     width: 50%;
@@ -387,11 +401,11 @@
   .shared7 {
     width: 90%;
     gap: 30px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
   }
   .shared8 {
-    gap: 60px;
-    padding-bottom: 40px;
+    gap: 40px;
+    padding-bottom: 30px;
   }
   .shared__right8 {
     align-items: flex-start;
@@ -474,22 +488,38 @@
     max-height: 40px;
   }
 
-  .imageoll {
-    margin: 15px 0;
-  }
   .benefits-img {
     top: 15px;
     left: 20px;
     width: 55px;
   }
+
+  /* ---------- Personal margins ---------- */
+  .personal {
+    margin: 0 auto 30px;
+    padding-bottom: 20px;
+  }
+
+  /* ---------- Guest benefits img ---------- */
+  .guest-benefits__img {
+    padding: 20px 0;
+  }
+  .guest-benefits {
+    padding: 40px 0;
+  }
+
+  /* ---------- Product last ---------- */
+  .product_last {
+    margin-bottom: 30px;
+  }
 }
 
 /* ==========================================================
-   MOBILE — ≤ 768px
-   Теперь в column
-   ========================================================== */
+     MOBILE — ≤ 768px
+     Всё в column
+     ========================================================== */
 @media (max-width: 768px) {
-  /* Hero */
+  /* ---------- Hero ---------- */
   .cosmetics__logo {
     margin-bottom: 120px;
     margin-top: 20px;
@@ -519,7 +549,19 @@
     width: 65px;
   }
 
-  /* Текст ещё меньше */
+  /* ---------- Imageoll — ограничиваем высоту ---------- */
+  .imageoll {
+    margin: 10px 0;
+    max-height: 300px;
+    overflow: hidden;
+  }
+  .imageoll img {
+    max-height: 300px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  /* ---------- Текст ещё меньше ---------- */
   .benefits__title {
     font-size: 18px;
   }
@@ -596,12 +638,15 @@
   .shared__text-title {
     font-size: 18px;
     margin-top: 12px;
+    margin-bottom: 8px;
   }
   .shared__text-txt {
     font-size: 14px;
+    width: 100%;
   }
   .shared__text-txt1 {
     font-size: 14px;
+    width: 100%;
     margin-top: 8px;
     margin-bottom: 8px;
   }
@@ -621,6 +666,12 @@
   .series__list-item {
     font-size: 14px;
   }
+  .series__subtitle {
+    padding-bottom: 15px;
+  }
+  .series__subtitle1 {
+    margin-bottom: 15px;
+  }
   .series__list {
     gap: 10px;
   }
@@ -632,6 +683,7 @@
   }
   .moscow__text1 {
     font-size: 12px;
+    margin-top: 10px;
   }
   .competition__item-title {
     font-size: 16px;
@@ -651,6 +703,8 @@
   .assortment__label {
     font-size: 13px;
   }
+
+  /* ---------- Фиксы отступов (самое важное) ---------- */
   .shared__text-title5 {
     font-size: 15px;
     padding: 10px 0;
@@ -660,8 +714,11 @@
     font-size: 0.85rem;
     margin-top: 15px;
   }
+  .advantages__card-text {
+    margin-bottom: 15px;
+  }
 
-  /* В column */
+  /* ---------- В column ---------- */
   .benefits__container,
   .aesthetics__container,
   .advantages__container,
@@ -680,9 +737,10 @@
     gap: 20px;
   }
 
-  /* Benefits */
+  /* ---------- Benefits ---------- */
   .benefits {
     min-height: auto;
+    margin-bottom: 15px;
   }
   .benefits__content {
     max-width: 100%;
@@ -690,13 +748,14 @@
   }
   .benefits__item {
     margin-right: 0;
+    margin-bottom: 20px;
   }
   .benefits__bottom-btn {
     position: relative;
     margin: 8px 0 0;
   }
 
-  /* Aesthetics */
+  /* ---------- Aesthetics ---------- */
   .aesthetics__content {
     padding: 15px 0 0 0;
   }
@@ -708,7 +767,7 @@
     margin-bottom: 20px;
   }
 
-  /* Advantages */
+  /* ---------- Advantages ---------- */
   .advantages__card--orange {
     padding: 20px;
     height: auto;
@@ -721,8 +780,12 @@
     max-height: 300px;
     overflow: hidden;
   }
+  .advantages__image {
+    max-height: 300px;
+    object-fit: cover;
+  }
 
-  /* Beauty */
+  /* ---------- Beauty ---------- */
   .beauty {
     padding: 25px 0;
   }
@@ -746,45 +809,61 @@
     align-self: flex-end;
   }
 
-  /* Guest benefits */
+  /* ---------- Guest benefits ---------- */
   .guest-benefits {
-    padding: 30px 0;
+    padding: 25px 0;
   }
   .guest-benefits__image {
     order: -1;
     padding: 18px;
   }
+  .guest-benefits__img {
+    padding: 15px 0;
+  }
 
-  /* Personal */
+  /* ---------- Personal ---------- */
+  .personal {
+    margin: 0 auto 20px;
+    padding-bottom: 15px;
+    gap: 15px;
+  }
   .personal__left {
     width: 100%;
     padding: 15px 20px;
     max-height: none;
+    max-width: 100%;
   }
   .personal__left1 {
     width: 100%;
     padding: 15px 20px;
     max-height: none;
+    max-width: 100%;
   }
 
-  /* Shared */
+  /* ---------- Shared ---------- */
   .shared__left,
   .shared__right {
     width: 100%;
   }
   .shared__right-img {
     height: auto;
-    max-height: 350px;
-    border-radius: 8px;
+    max-height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    width: 100%;
   }
   .shared__left-img {
     max-width: 65px;
   }
   .shared {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+    gap: 15px;
   }
 
-  /* Hair */
+  /* ---------- Hair ---------- */
+  .hair {
+    padding: 20px 10px;
+  }
   .hair__row {
     flex-direction: column;
     gap: 10px;
@@ -798,9 +877,16 @@
     width: 100%;
     max-width: 180px;
     padding: 15px;
+    margin: 0 auto;
+  }
+  .hair__content {
+    gap: 20px;
   }
 
-  /* Series */
+  /* ---------- Series ---------- */
+  .series {
+    gap: 20px;
+  }
   .series__left {
     width: 100%;
     padding-top: 0;
@@ -811,6 +897,13 @@
     grid-template-columns: 1fr 1fr;
     gap: 8px;
   }
+  .series__card {
+    max-height: 200px;
+  }
+  .series__img {
+    max-height: 200px;
+    object-fit: cover;
+  }
   .series__img-text1,
   .series__img-text2,
   .series__img-text3,
@@ -818,10 +911,10 @@
     font-size: 0.9rem;
   }
 
-  /* Moscow */
+  /* ---------- Moscow ---------- */
   .moscow {
     border-radius: 12px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
   }
   .moscow__left {
     width: 100%;
@@ -840,8 +933,11 @@
     width: 50px;
     height: 50px;
   }
+  .moscow__text1 {
+    margin-top: 10px;
+  }
 
-  /* Product */
+  /* ---------- Product ---------- */
   .product {
     gap: 15px;
     padding: 15px 0;
@@ -849,11 +945,15 @@
   .product__img {
     max-width: 70px;
   }
+  .product_last {
+    margin-bottom: 20px;
+  }
 
-  /* Shared5, 51 */
+  /* ---------- Shared5, 51 ---------- */
   .shared5,
   .shared51 {
-    padding-bottom: 25px;
+    padding-bottom: 20px;
+    gap: 15px;
   }
   .shared__left5 {
     width: 100%;
@@ -881,14 +981,18 @@
   .shared__right-img6 {
     width: 100%;
     max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
   }
 
-  /* Shared7, 8 */
+  /* ---------- Shared7, 8 ---------- */
   .shared7 {
-    padding-bottom: 25px;
+    padding-bottom: 20px;
+    gap: 15px;
   }
   .shared8 {
-    padding-bottom: 25px;
+    padding-bottom: 20px;
+    gap: 15px;
   }
   .shared__right8 {
     align-items: flex-start;
@@ -903,12 +1007,13 @@
     height: auto;
     max-height: 220px;
     border-radius: 8px;
+    object-fit: cover;
   }
   .shared__left4 {
     width: 100%;
   }
 
-  /* Assortment */
+  /* ---------- Assortment ---------- */
   .assortment {
     padding: 20px 0;
   }
@@ -926,7 +1031,7 @@
     height: 100px;
   }
 
-  /* Partners */
+  /* ---------- Partners ---------- */
   .partners {
     margin: 25px 0;
   }
@@ -938,10 +1043,11 @@
     gap: 12px;
   }
 
-  /* Competition */
+  /* ---------- Competition ---------- */
   .competition__container {
     gap: 15px;
     padding-bottom: 20px;
+    flex-direction: column;
   }
   .competition__item {
     max-width: 100%;
@@ -952,11 +1058,16 @@
     left: 12px;
     width: 45px;
   }
+
+  /* ---------- Individual arrow ---------- */
+  .individual__arrow {
+    padding: 10px 0;
+  }
 }
 
 /* ==========================================================
-   SMALL MOBILE — ≤ 480px
-   ========================================================== */
+     SMALL MOBILE — ≤ 480px
+     ========================================================== */
 @media (max-width: 480px) {
   .cosmetics__title {
     font-size: 20px;
@@ -1074,6 +1185,12 @@
     grid-template-columns: 1fr;
     gap: 6px;
   }
+  .series__card {
+    max-height: 180px;
+  }
+  .series__img {
+    max-height: 180px;
+  }
   .series__heading {
     font-size: 14px;
   }
@@ -1112,13 +1229,23 @@
   .shared__text p {
     font-size: 12px;
   }
-  .shared__right-img,
+  .shared__right-img {
+    max-height: 220px;
+  }
   .shared__right-img5,
   .shared__right-img6 {
     max-height: 220px;
   }
   .shared__right-img1 {
     max-height: 170px;
+  }
+
+  /* ---------- Imageoll ещё меньше ---------- */
+  .imageoll {
+    max-height: 200px;
+  }
+  .imageoll img {
+    max-height: 200px;
   }
 
   .competition__item-title {
@@ -1130,5 +1257,11 @@
   .guest-benefits__txt {
     font-size: 0.75rem;
     margin-top: 10px;
+  }
+
+  .shared__text-title5 {
+    font-size: 13px;
+    padding: 8px 0;
+    margin-bottom: 10px;
   }
 }
