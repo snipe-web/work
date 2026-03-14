@@ -124,95 +124,7 @@
   height: 100%;
   object-fit: contain;
 }
-@media (max-width: 992px) {
-  .cosmetics__background,
-  .cosmetics__bg-image {
-    height: 700px;
-  }
 
-  .cosmetics__content {
-    top: 30px;
-    left: 40px;
-  }
-
-  .cosmetics__logo {
-    margin-bottom: 300px;
-  }
-
-  .cosmetics__title {
-    font-size: 24px;
-  }
-
-  .cosmetics__subtitle {
-    font-size: 16px;
-  }
-}
-@media (max-width: 768px) {
-  .cosmetics__background,
-  .cosmetics__bg-image {
-    height: 600px;
-  }
-
-  .cosmetics__content {
-    width: 90%;
-    margin: 0 auto;
-    padding-top: 30px;
-  }
-
-  .cosmetics__logo {
-    margin-bottom: 200px;
-  }
-
-  .cosmetics__bottom {
-    align-items: center;
-    width: 85%;
-  }
-
-  .cosmetics__title {
-    font-size: 22px;
-    text-align: left;
-  }
-
-  .cosmetics__subtitle {
-    font-size: 15px;
-  }
-}
-@media (max-width: 480px) {
-  .cosmetics__background,
-  .cosmetics__bg-image {
-    height: 520px;
-  }
-
-  .cosmetics__logo {
-    margin-top: 20px;
-    margin-bottom: 150px;
-  }
-
-  .cosmetics__logo-img {
-    width: 60px;
-  }
-
-  .cosmetics__title {
-    font-size: 18px;
-    line-height: 1.2;
-  }
-
-  .cosmetics__subtitle {
-    font-size: 14px;
-  }
-
-  .cosmetics__bottom {
-    gap: 15px;
-  }
-
-  .this {
-    padding: 30px 0;
-  }
-
-  .this__title {
-    font-size: 16px;
-  }
-}
 
 .benefits {
   position: relative;
@@ -326,16 +238,7 @@
   margin: 0px 130px 60px;
 }
 
-/* Адаптивность */
-@media (max-width: 768px) {
-  .benefits__container {
-    flex-direction: column;
-  }
 
-  .benefits__content {
-    padding: 20px;
-  }
-}
 
 .aesthetics {
   margin-top: 50px;
@@ -498,33 +401,7 @@
   max-width: 340px;
 }
 
-/* Адаптивность */
-@media (max-width: 768px) {
-  .aesthetics__container {
-    flex-direction: column;
-  }
 
-  .aesthetics__content {
-    padding: 20px;
-  }
-
-  .aesthetics__title {
-    font-size: 1.2rem;
-  }
-
-  .aesthetics__text {
-    font-size: 0.9rem;
-  }
-  .aesthetics__text1 {
-    font-size: 0.9rem;
-  }
-  .imageoll {
-    margin: 30px 0;
-  }
-  .individual {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
 .individual__arrow {
   display: flex;
   justify-content: space-between;
@@ -645,12 +522,7 @@
   flex-direction: column;
   align-items: flex-end;
 }
-@media (max-width: 768px) {
-  .advantages__container {
-    display: flex;
-    flex-direction: column;
-  }
-}
+
 
 /* Ассортимент */
 .assortment {
@@ -765,30 +637,7 @@
   color: #202020;
 }
 
-@media (max-width: 768px) {
-  .assortment__top-row {
-    grid-template-columns: 1fr;
-    gap: 30px;
-  }
-  .assortment__bottom-row {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-  }
-}
 
-@media (max-width: 480px) {
-  .assortment__bottom-row {
-    grid-template-columns: 1fr;
-  }
-  .assortment__header {
-    width: 100%;
-    text-align: center;
-    padding: 20px;
-  }
-  .assortment__title {
-    font-size: 1.5rem;
-  }
-}
 
 .competition__container {
   width: 85%;
@@ -841,25 +690,7 @@
   margin: auto;
   padding-bottom: 60px;
 }
-@media (max-width: 768px) {
-  .competition__container {
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-bottom: 30px;
-  }
-  .competition__item {
-    max-width: 100%;
-  }
-  .competition__icon {
-    width: 85%;
-    display: flex;
-    justify-content: flex-end;
-    margin: auto;
-    padding-bottom: 30px;
-  }
-}
+
 .partners {
   margin: 120px 0 60px 0 ;
 }
@@ -880,19 +711,7 @@
   margin: auto;
   align-items: center;
 }
-@media (max-width: 768px) {
-  .partners__image {
-    padding-top: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 85%;
-    margin: auto;
-  }
-  .partners__image-img {
-    max-height: 66px;
-  }
-}
+
 .benefits__text1 {
   font-weight: 400;
   font-size: 45px;
@@ -999,100 +818,7 @@
   height: 100%;
   object-fit: cover;
 }
-/* ===== TABLET (до 1024px) ===== */
-@media (max-width: 1024px) {
-  .beauty__container {
-    width: 90%;
-    gap: 40px;
-  }
 
-  .beauty__title {
-    font-size: 28px;
-  }
-
-  .beauty__text {
-    font-size: 1.2rem;
-  }
-
-  .beauty__image--large {
-    height: 460px;
-  }
-
-  .beauty__image--small {
-    height: 380px;
-  }
-}
-
-/* ===== MOBILE / TABLET (до 768px) ===== */
-@media (max-width: 768px) {
-  .beauty__container {
-    flex-direction: column;
-    gap: 50px;
-  }
-
-  .beauty__left,
-  .beauty__right {
-    width: 100%;
-    align-items: flex-start;
-  }
-
-  .beauty__right {
-    align-items: flex-start;
-  }
-
-  .beauty__text {
-    text-align: left;
-  }
-
-  .beauty__brand {
-    align-self: flex-end;
-  }
-
-  .beauty__image--large,
-  .beauty__image--small {
-    width: 100%;
-  }
-}
-
-/* ===== MOBILE (до 480px) ===== */
-@media (max-width: 480px) {
-  .beauty {
-    padding: 40px 0;
-  }
-
-  .beauty__title {
-    font-size: 22px;
-    line-height: 1.3;
-  }
-
-  .beauty__description {
-    font-size: 16px;
-  }
-
-  .beauty__text {
-    font-size: 1rem;
-  }
-
-  .beauty__image--large {
-    height: 300px;
-  }
-
-  .beauty__image--small {
-    height: 260px;
-  }
-
-  .beauty__badge {
-    padding: 12px 16px;
-  }
-
-  .beauty__badge-title {
-    font-size: 16px;
-  }
-
-  .beauty__badge-subtitle {
-    font-size: 12px;
-  }
-}
 .guest-benefits {
   padding: 80px 0;
   background-color: #ffffff;
@@ -1167,76 +893,7 @@
   display: flex;
   justify-content: space-between;
 }
-/* ====== 1024px ====== */
-@media (max-width: 1024px) {
-  .guest-benefits__container {
-    gap: 40px;
-  }
 
-  .guest-benefits__title {
-    font-size: 28px;
-  }
-
-  .guest-benefits__item {
-    font-size: 17px;
-  }
-}
-
-/* ====== 768px (планшеты) ====== */
-@media (max-width: 768px) {
-  .guest-benefits {
-    padding: 60px 0;
-  }
-
-  .guest-benefits__container {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
-
-  .guest-benefits__image {
-    order: -1;
-    padding: 30px;
-  }
-
-  .guest-benefits__title {
-    font-size: 26px;
-    text-align: center;
-  }
-
-  .guest-benefits__list {
-    gap: 20px;
-  }
-  .guest-benefits__img {
-    padding: 40px 0;
-  }
-}
-
-/* ====== 480px (мобильные) ====== */
-@media (max-width: 480px) {
-  .guest-benefits {
-    padding: 40px 0;
-  }
-
-  .guest-benefits__title {
-    font-size: 22px;
-  }
-
-  .guest-benefits__item {
-    font-size: 0.9rem;
-    padding-left: 22px;
-  }
-
-  .guest-benefits__item::before {
-    width: 5px;
-    height: 5px;
-    top: 9px;
-  }
-
-  .guest-benefits__image {
-    padding: 20px;
-    border-radius: 12px;
-  }
-}
 .personal {
   display: flex;
   gap: 30px;
@@ -1275,23 +932,7 @@
 .personal__right {
   width: 100%;
 }
-@media (max-width: 768px) {
-  .personal {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    justify-content: space-between;
-    margin: auto;
-    width: 85%;
-    padding-bottom: 30px;
-  }
-  .personal__left {
-    width: 100%;
-  }
-  .personal__right img {
-    width: 50%;
-  }
-}
+
 .approach {
   font-weight: 400;
   font-size: 20px;
@@ -1381,20 +1022,7 @@
   color: #202020;
   margin-bottom: 60px;
 }
-@media (max-width: 768px) {
-  .shared {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-bottom: 40px;
-  }
-  .shared__text-title {
-    font-size: 1.5rem;
-  }
-  .shared__text-txt {
-    font-size: 0.9rem;
-  }
-}
+
 .hair {
   font-family: Arial, sans-serif;
   color: #000;
@@ -1457,19 +1085,7 @@
   margin-top: 5px;
   text-transform: lowercase;
 }
-@media (max-width: 768px) {
-  .hair__row {
-    flex-direction: column;
-    gap: 20px;
-  }
-  .hair__column {
-    width: 100%;
-  }
-  .hair__brand {
-    position: relative;
-    width: 100%;
-  }
-}
+
 .series {
   display: flex;
   gap: 175px;
@@ -1591,23 +1207,7 @@
   color: black;
 }
 
-@media (max-width: 768px) {
-  .series {
-    flex-direction: column;
-  }
-  .series__left {
-    width: 100%;
-  }
-  .series__right {
-    width: 100%;
-  }
-}
 
-@media (max-width: 480px) {
-  .series__right {
-    grid-template-columns: 1fr;
-  }
-}
 .hair__title {
   font-size: 1.5rem;
   font-weight: 500;
@@ -1618,29 +1218,7 @@
   padding: 50px;
   color: #fff;
 }
-@media (max-width: 768px) {
-  .series {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  .series__left {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-}
-@media (max-width: 490px) {
-  .series__right {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
-    position: relative;
-  }
-  .series__img {
-    width: 100%;
-  }
-}
+
 .series__right div {
   position: relative;
 }
@@ -1719,23 +1297,7 @@
   color: #fff;
   margin-top: 20px;
 }
-@media (max-width: 780px) {
-  .moscow__content {
-    display: flex;
-    flex-direction: column;
-  }
-  .moscow__left {
-    width: 100%;
-  }
-}
-@media (max-width: 660px) {
-  .moscow__right {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    padding: 20px;
-  }
-}
+
 .product {
   display: flex;
   justify-content: space-around;
@@ -1779,12 +1341,7 @@
   max-width: 580px;
   max-height: 100%;
 }
-@media (max-width: 400px) {
-  .product {
-    display: flex;
-    flex-direction: column;
-  }
-}
+
 .personal__right1 {
   display: flex;
 }
@@ -1852,16 +1409,7 @@
   justify-content: space-between;
   text-align: start;
 }
-@media (max-width: 780px) {
-  .shared8 {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    width: 85%;
-    margin: auto;
-    padding-bottom: 80px;
-    gap: 30px;
-  }
-}
+
 .guest-benefits__img3 {
   width: 100%;
   margin: auto;
@@ -1932,384 +1480,8 @@
   justify-items: end;
 }
 
-@media (max-width: 490px) {
-  .shared5 {
-    display: flex;
-    flex-direction: column;
-  }
 
-  .shared__left5 {
-    gap: 20px;
-    width: 100%;
-  }
-  .shared__right5 {
-    width: 100%;
-    justify-content: center;
-  }
-  .guest-benefits__img11 {
-    width: 100%;
-  }
-  .shared__right6 {
-    width: 100%;
-    gap: 20px;
-  }
-  .shared__text6 {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-top: 30px;
-  }
-  .shared7 {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
 
-/* =========================================
-   MOBILE & TABLET ADAPTIVE FIXES
-   ========================================= */
 
-@media (max-width: 1024px) {
-  /* Глобальный сброс для контейнеров */
-  .cosmetics__content,
-  .benefits__container,
-  .aesthetics__container,
-  .advantages__container,
-  .competition__container,
-  .beauty__container,
-  .guest-benefits__container,
-  .personal,
-  .shared,
-  .hair,
-  .series,
-  .moscow,
-  .product,
-  .assortment__container,
-  .partners__image,
-  .shared5,
-  .shared51,
-  .shared7,
-  .shared8,
-  .hotel__title {
-    width: 92% !important; /* Безопасные отступы по бокам */
-    margin-left: auto !important;
-    margin-right: auto !important;
-    min-width: 0 !important; /* Защита от переполнения flex-элементов */
-  }
 
-  /* Убираем огромные вертикальные отступы */
-  .partners, .beauty, .guest-benefits, .personal, .shared, .hair, .series, .moscow, .product_last, .assortment, .competition, .this, .benefits, .imageoll {
-    margin-top: 40px !important;
-    margin-bottom: 40px !important;
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-  }
 
-  /* Выстраиваем всё в колонку */
-  .benefits__container,
-  .aesthetics__container,
-  .advantages__container,
-  .beauty__container,
-  .guest-benefits__container,
-  .personal,
-  .shared,
-  .series,
-  .moscow__content,
-  .shared5,
-  .shared51,
-  .shared7,
-  .shared8 {
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 30px !important;
-  }
-
-  /* Сброс жестких паддингов и размеров */
-  .personal__left, 
-  .advantages__card--orange, 
-  .advantages__card--white,
-  .shared__left,
-  .shared__left5,
-  .moscow__left {
-    padding: 25px !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    margin: 0 !important;
-    height: auto !important;
-  }
-
-  /* Главный экран (Hero) */
-  .cosmetics__bg-image {
-    height: 100vh;
-    min-height: 500px;
-  }
-  .cosmetics__content {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 90% !important;
-    margin: 100px auto 0;
-    text-align: center;
-  }
-  .cosmetics__logo {
-    margin: 0 auto 30px;
-  }
-  .cosmetics__title {
-    font-size: 28px !important;
-    line-height: 1.2;
-  }
-  .cosmetics__subtitle {
-    font-size: 16px !important;
-    margin: 20px auto;
-  }
-  .cosmetics__bottom {
-    justify-content: center;
-    margin-top: 40px;
-  }
-
-  /* Картинки - чтобы не распирали экран */
-  img {
-    max-width: 100% !important;
-    height: auto !important;
-  }
-  
-  /* Ограничиваем высоту декоративных картинок, чтобы не скроллить вечность */
-  .beauty__image--large img, 
-  .shared__right-img, 
-  .shared__right-img5, 
-  .shared__right-img6 {
-    max-height: 350px;
-    object-fit: contain;
-    margin: 0 auto;
-    display: block;
-  }
-
-  /* Текст и заголовки */
-  h1, h2, h3, .hotel__title p, .benefits__text1, .shared__text-title, .hair__title {
-    font-size: 24px !important;
-    line-height: 1.3 !important;
-    word-wrap: break-word; /* Перенос длинных слов */
-  }
-  p, .benefits__text, .aesthetics__text, .personal__text, .series__subtitle, .individual__item, .assortment__label {
-    font-size: 16px !important;
-    line-height: 1.5 !important;
-  }
-
-  /* Ассортимент */
-  .assortment__top-row, .assortment__bottom-row {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr; /* 2 колонки на планшете */
-    gap: 20px !important;
-  }
-  
-  /* Москва / Иконки */
-  .moscow__right {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    padding: 0 20px 30px;
-  }
-  .moscow__icon {
-    width: 60px !important;
-    height: 60px !important;
-  }
-  
-  /* Скрываем/уменьшаем очень большие фоновые картинки в блоках преимуществ */
-  .advantages__right-column, .benefits__image {
-    display: none; /* Убираем дублирующие огромные картинки, оставляем суть (текст) */
-  }
-}
-
-@media (max-width: 480px) {
-  /* Мобильная версия - только 1 колонка везде */
-  .assortment__top-row, .assortment__bottom-row {
-    grid-template-columns: 1fr; /* 1 товар в ряд */
-  }
-  .partners__image {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
-  .product {
-    flex-direction: column;
-    text-align: center;
-    padding: 20px 0;
-    border-bottom: 1px solid #eee;
-  }
-  .product__img {
-    margin-bottom: 20px;
-    max-width: 150px;
-  }
-  .series__right {
-    grid-template-columns: 1fr !important;
-  }
-}
-
-/* --- ADAPTIVE FIXES (TABLET & MOBILE) --- */
-/* Полная перестройка структуры для планшетов и мобильных */
-
-@media (max-width: 1024px) {
-  .cosmetics__content {
-    left: 5%;
-    width: 90%;
-  }
-  
-  /* Сброс огромных отступов между секциями */
-  .partners, .beauty, .guest-benefits, .personal, .shared, .hair, .series, .moscow, .product_last, .assortment, .competition, .this, .benefits, .hotel__title, .imageoll {
-    margin-top: 40px !important;
-    margin-bottom: 40px !important;
-  }
-  
-  .hotel__title p {
-    font-size: 28px;
-  }
-  
-  /* Разрешаем блокам растягиваться по высоте контента */
-  .personal__left, .advantages__card, .shared__left1, .shared__left5, .shared__right5 {
-    height: auto !important;
-    width: auto !important;
-    max-height: none !important;
-  }
-
-  .series { gap: 40px; }
-  .beauty__container { gap: 40px; }
-}
-
-@media (max-width: 768px) {
-  /* --- ЕДИНАЯ ТИПОГРАФИКА --- */
-  h1, h2, h3, .hotel__title p, .benefits__text1, .shared__text-title, .hair__title, 
-  .cosmetics__title, .partners__title, .competition__title, .beauty__title, 
-  .guest-benefits__title, .personal__title, .series__heading, .assortment__title, 
-  .shared__text-title5, .shared__text-txt1 {
-    font-size: 22px !important;
-    line-height: 1.3 !important;
-    hyphens: auto;
-    word-wrap: break-word;
-  }
-  
-  p, .benefits__text, .aesthetics__text, .competition__item-text, .beauty__description, 
-  .guest-benefits__item, .moscow__text, .personal__text, .shared__text-txt, 
-  .beauty__text, .assortment__label, .advantages__card-text, .advantages__card-text1,
-  .series__subtitle, .series__list-item {
-    font-size: 16px !important;
-    line-height: 1.5 !important;
-  }
-
-  /* --- ГЛОБАЛЬНАЯ СТРУКТУРА (В КОЛОНКУ) --- */
-  .benefits__container, .aesthetics__container, .advantages__container, .competition__container,
-  .beauty__container, .guest-benefits__container, .personal, .shared, .hair__row, .series,
-  .moscow__content, .product, .shared5, .shared51, .shared7, .shared8 {
-    display: flex !important;
-    flex-direction: column !important;
-    width: 90% !important;
-    margin: 0 auto !important;
-    gap: 30px !important;
-    padding: 0 !important;
-  }
-
-  /* --- СПЕЦИФИЧНЫЕ БЛОКИ --- */
-  
-  /* Главный экран */
-  .cosmetics__bg-image { height: 400px; object-position: center; }
-  .cosmetics__content {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    width: 90%;
-    left: 5%;
-    margin: 0;
-  }
-  .cosmetics__bottom { justify-content: center; gap: 20px; }
-  
-  /* Benefits */
-  .benefits__content { max-width: 100%; padding: 30px 20px; order: 2; }
-  .benefits__image { order: 1; }
-  .benefits__item { margin-right: 0; }
-  
-  /* Advantages */
-  .advantages__card--orange, .advantages__card--white {
-    width: 100%; margin-left: 0; 
-    padding: 30px;
-  }
-  
-  /* Assortment */
-  .assortment__top-row, .assortment__bottom-row {
-    grid-template-columns: 1fr;
-    gap: 30px;
-  }
-  .assortment__header { width: 100%; height: auto; padding: 20px; justify-content: center; }
-  .assortment__img-wrap { height: 120px; margin: 0 auto; }
-
-  /* Partners */
-  .partners__image {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-    padding-top: 20px;
-  }
-  .partners__image-img { max-width: 100px; object-fit: contain; }
-  
-  /* Beauty */
-  .beauty__left, .beauty__right { width: 100%; align-items: center; text-align: center; }
-  .beauty__text { text-align: center; }
-  .beauty__image--large, .beauty__image--small { height: auto; max-height: 300px; }
-  
-  /* Guest Benefits */
-  .guest-benefits__image { order: -1; }
-  
-  /* Personal */
-  .personal__left {
-    padding: 30px 20px;
-    border: 1px solid #202020;
-    max-width: 100%;
-  }
-  
-  /* Блоки Shared (с картинкой и текстом) - центрируем */
-  .shared__left, .shared__right, .shared__left5, .shared__right5, 
-  .shared__left6, .shared__right6, .shared__left1, .shared__right8, .shared__left4 {
-    width: 100%; margin: 0; text-align: center; align-items: center;
-  }
-  .shared__right-img, .shared__right-img1, .shared__right-img5, .shared__right-img6 {
-    max-width: 100%; max-height: 300px; object-fit: contain; margin: 0 auto;
-  }
-  .shared__text-txt, .shared__text-txt1, .shared__text p {
-    width: 100%; max-width: 100%; text-align: center;
-  }
-  
-  /* Hair */
-  .hair__column { width: 100%; margin-bottom: 20px; }
-  .hair__brand { position: static; transform: none; margin: 20px auto; width: 100%; max-width: 300px; }
-  
-  /* Series */
-  .series__left { width: 100%; padding-top: 0; }
-  .series__right { grid-template-columns: 1fr; width: 100%; }
-  
-  /* Moscow */
-  .moscow__left { width: 100%; padding: 30px 20px; text-align: center; }
-  .moscow__img { margin: 0 auto; }
-  .moscow__right {
-    width: 100%; padding: 20px;
-    display: grid; grid-template-columns: 1fr 1fr; /* Сетка 2x2 для иконок */
-    gap: 20px;
-  }
-  .moscow__icon { width: 60px; height: 60px; }
-  .moscow__colum { margin: 0; }
-  
-  /* Product */
-  .product {
-    padding: 30px 0;
-    text-align: center;
-    border-bottom: 1px solid #ddd;
-  }
-  .product:last-child { border-bottom: none; }
-  .product__img { max-width: 150px; margin-bottom: 20px; }
-  .product__tex { width: 100%; }
-  
-  /* Individual Grid */
-  .individual { grid-template-columns: 1fr; gap: 15px; }
-  .individual__item { font-size: 18px; padding: 20px; }
-  
-  /* Hotel Title */
-  .hotel__title { width: 100%; border-radius: 15px; padding: 20px; }
-}
