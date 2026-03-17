@@ -207,15 +207,6 @@
     margin-left: 130px;
   }
   /* ---------- Imageoll (фото-разделители) ---------- */
-  /* .imageoll {
-    margin: 15px 0;
-    max-height: 400px;
-    object-fit: cover;
-  }
-  .imageoll img {
-    max-height: 400px;
-    object-fit: cover;
-  } */
 
   /* ---------- Hero ---------- */
   .cosmetics__content {
@@ -460,8 +451,6 @@
 
   .shared__left {
   }
-  .shared__right {
-  }
   .shared__right-img {
     height: auto;
   }
@@ -478,8 +467,6 @@
   .shared__right51 {
     width: 50%;
   }
-  .shared__right5 {
-  }
   .shared__right-img5 {
     width: 100%;
     max-height: 400px;
@@ -493,8 +480,6 @@
 
   .shared__left6 {
     width: 50%;
-  }
-  .shared__right6 {
   }
   .shared__right-img6 {
     width: 95%;
@@ -669,16 +654,6 @@
   }
 
   /* ---------- Imageoll — ограничиваем высоту ---------- */
-  /* .imageoll {
-    margin: 10px 0;
-    max-height: 300px;
-    overflow: hidden;
-  }
-  .imageoll img {
-    max-height: 300px;
-    object-fit: cover;
-    width: 100%;
-  } */
 
   /* ---------- Текст ещё меньше ---------- */
   .benefits__title {
@@ -843,23 +818,6 @@
     margin-bottom: 15px;
   }
 
-  /* ---------- В column ---------- */
-  .benefits__container,
-  .aesthetics__container,
-  .advantages__container,
-  .beauty__container,
-  .guest-benefits__container,
-  .personal,
-  .shared,
-  .series,
-  .moscow__content,
-  .shared5,
-  .shared51,
-  .shared7,
-  .shared8 {
-  }
-
-  /* ---------- Benefits ---------- */
   .benefits {
     min-height: auto;
     margin-bottom: 15px;
@@ -879,8 +837,6 @@
   }
 
   /* ---------- Aesthetics ---------- */
-  .aesthetics__content {
-  }
   .aesthetics__img {
     width: 100%;
     height: auto;
@@ -1450,13 +1406,6 @@
 }
 
 
-  /* ---------- Imageoll ещё меньше ---------- */
-  /* .imageoll {
-    max-height: 200px;
-  }
-  .imageoll img {
-    max-height: 200px;
-  } */
 
   .competition__item-title {
     font-size: 14px;

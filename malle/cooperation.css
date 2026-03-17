@@ -1,42 +1,12 @@
 /* Определение шрифта Helvetica для всего проекта */
-
-/* ВНИМАНИЕ: Файлы шрифтов Helvetica должны быть расположены в директории fonts/ */
-/* Для работы этого кода необходимо получить лицензию на использование шрифта Helvetica и добавить соответствующие файлы */
-
-/*
-@font-face {
-  font-family: 'Helvetica';
-  src: url('fonts/Helvetica.woff2') format('woff2'),
-       url('fonts/Helvetica.woff') format('woff'),
-       url('fonts/Helvetica.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Helvetica';
-  src: url('fonts/Helvetica-Bold.woff2') format('woff2'),
-       url('fonts/Helvetica-Bold.woff') format('woff'),
-       url('fonts/Helvetica-Bold.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-}
-*/
-
 /* Временное решение: Используем системный шрифт Helvetica, если доступен, иначе Arial */
 * {
   font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
-/* Если вы добавили файлы шрифтов в директорию fonts/, раскомментируйте блоки @font-face выше */
-/* и удалите или закомментируйте строку font-family с системными шрифтами */
-
 .cosmetics {
   position: relative;
   overflow: hidden;
-}
-
-.cosmetics__background {
 }
 
 .cosmetics__bg-image {
@@ -560,9 +530,6 @@
     justify-content: center;
     align-items: center;
 }
-.assortment__header {
-  
-}
 
 .assortment__title {
   font-size: 2rem;
@@ -1001,8 +968,6 @@
 .shared__left-img {
   max-width: 107px;
   width: 100%;
-}
-.shared__left {
 }
 .shared__text-title {
   font-weight: 700;
@@ -1490,8 +1455,6 @@
 }
 .shared__left6 {
   width: 40%;
-}
-.shared__text6 {
 }
 .shared7 {
   display: grid;
