@@ -1275,7 +1275,11 @@
   width: 100%;
   max-width: 200px;
   height: 100%;
-  padding: 7px 0 30px 0;
+  max-height: 50px;
+  margin: 7px 0 30px 0;
+}
+.moscow__img1 {
+  max-width: 130px;
 }
 .moscow__right {
   display: flex;
@@ -1503,3 +1507,137 @@
 
 
 
+.moscow-slider-wrap {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 95%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.moscow-slider {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.moscow-slider__track {
+  display: flex;
+  transition: transform 0.4s ease;
+}
+
+.moscow-slider__track > .moscow {
+  min-width: 100%;
+  width: 100%;
+  flex-shrink: 0;
+  margin: 0;
+}
+
+/* Стрелки — по бокам, вне слайдера */
+.moscow-slider__arrow {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 2px solid #fa4600;
+  background: #fff;
+  color: #fa4600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background 0.2s, color 0.2s;
+}
+
+.moscow-slider__arrow:hover {
+  background: #fa4600;
+  color: #fff;
+}
+
+/* Точки — на всю ширину снизу */
+.moscow-slider__dots {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.moscow-slider__dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid #fa4600;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  transition: background 0.2s;
+}
+
+.moscow-slider__dot--active {
+  background: #fa4600;
+}
+
+@media (max-width: 768px) {
+  .moscow-slider__arrow { width: 36px; height: 36px; }
+  .moscow-slider__arrow svg { width: 18px; height: 18px; }
+}
+
+@media (max-width: 480px) {
+  .moscow-slider__arrow { width: 28px; height: 28px; }
+  .moscow-slider__arrow svg { width: 14px; height: 14px; }
+  .moscow-slider-wrap { gap: 8px; }
+}
+
+@media (max-width: 770px) {
+  .moscow-slider-wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    width: 90%;
+    gap: 0;
+  }
+
+  /* Слайдер — первая строка, на всю ширину */
+  .moscow-slider {
+    grid-column: 1;
+    grid-row: 1;
+    width: 100%;
+  }
+
+  /* Нижняя строка: стрелка точки стрелка */
+  .moscow-slider__arrow--left {
+    grid-row: 2;
+    grid-column: 1;
+    justify-self: start;
+    margin-top: 15px;
+  }
+
+  .moscow-slider__dots {
+    grid-row: 2;
+    grid-column: 1;
+    justify-self: center;
+    width: auto;
+    margin-top: 15px;
+  }
+
+  .moscow-slider__arrow--right {
+    grid-row: 2;
+    grid-column: 1;
+    justify-self: end;
+    margin-top: 15px;
+  }
+
+  .moscow-slider__arrow {
+    width: 36px;
+    height: 36px;
+  }
+  .moscow-slider__arrow svg {
+    width: 18px;
+    height: 18px;
+  }
+
+
+}
